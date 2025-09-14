@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: "${env.BRANCH_NAME}", url: 'https://github.com/KhalidAli555/Proshop.git'
+                git branch: "main", url: 'https://github.com/KhalidAli555/Proshop.git'
             }
         }
 
